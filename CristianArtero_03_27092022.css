@@ -1,0 +1,22 @@
+/* 
+    27 de Septiembre de 2022
+    Autor:Cristian Artero
+    Hoja de estilo CSS
+*/
+body{  
+    border: 17px solid rgb(165, 165, 165);
+    border-radius: 100%;
+    border-block-start-color:darkcyan;
+    border-inline-color: cyan;
+    border-inline-end: cadetblue;
+    background-color: rgb(84, 205, 163);
+}
+h1{color: rgb(255, 204, 143);
+}
+p{
+    color:rgb(30, 12, 80);
+    background-color: rgba(0, 110, 120, 0.7);
+    margin: 5%;
+    padding: 20px;
+    border-radius: 35px;
+}
