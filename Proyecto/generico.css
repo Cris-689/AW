@@ -1,16 +1,23 @@
     li{
          text-align: right;
          list-style: none;
+         font-size: 30px;
     }
     p{
         background-color: rgba(255, 235, 205, 0.786);
         opacity: 70%;
+        font-size: 25px;
     }
     h1{
         color: rgba(0, 0, 255, 0.574);
     }
-    html{
-        background-color: rgb(201, 201, 201);
+    body{
+        background: url(./Imagenes/fondo.jpeg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-repeat: repeat-x;
+        background-size: cover;
     }
     img{
         border: 5px double black;
