@@ -1,0 +1,20 @@
+    li{
+         text-align: right;
+         list-style: none;
+    }
+    p{
+        background-color: rgba(255, 235, 205, 0.786);
+        opacity: 70%;
+    }
+    h1{
+        color: rgba(0, 0, 255, 0.574);
+    }
+    html{
+        background-color: rgb(201, 201, 201);
+    }
+    img{
+        border: 5px double black;
+    }
+    p1{
+        opacity: 10%;
+    }

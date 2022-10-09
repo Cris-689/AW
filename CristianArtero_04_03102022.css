@@ -1,21 +1,18 @@
 /* 
-    27 de Septiembre de 2022
+    04 de Octubre de 2022
     Autor:Cristian Artero
-    Hoja de estilo CSS
 */
-body{  
-    border: 17px solid rgb(165, 165, 165);
-    border-radius: 100%;
-    border-block-start-color:darkcyan;
-    border-inline-color: cyan;
-    border-inline-end: cadetblue;
-    background-color: rgb(84, 205, 163);
+nav{
+    width: 25%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
-h1{color: rgb(255, 204, 143);
+
+img{
+    width: 25%;
+    border: 8px double rgb(162, 0, 0);
+    margin: auto;
+    display: block;
+    padding: 2px 3px 2px 3px;
 }
-p{
-    color:rgb(30, 12, 80);
-    background-color: rgba(0, 110, 120, 0.7);
-    margin: 5%;
-    padding: 20px;
-    border-radius: 35px;
