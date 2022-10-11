@@ -1,0 +1,38 @@
+/*
+    Cristian Artero
+    11 de octubre de 2022
+*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.menuv{
+    float: right;
+    width: 33%;
+}
+.menuv a{
+    background-color: grey;
+    color: azure;
+    text-decoration: none;
+    padding: 20px;
+    display: block  ;
+}
+.menuv a:hover{
+    background-color: azure;
+    color:grey;
+}
+.menuh a{
+    background-color: grey;
+    color: azure;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;  
+}
+.menuh a:hover{
+    background-color: azure;
+    color: grey
+}.menuv a{
+    background-color: ;
+}
