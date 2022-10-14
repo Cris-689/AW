@@ -5,22 +5,17 @@
       margin: 0px;
       box-sizing: border-box;
 }
-li{
-      text-align: right;
-      list-style: none;
-      font-size: 30px;
-}
 p{
       background-color: rgba(255, 235, 205, 0.786);
       opacity: 70%;
       font-size: 25px;
-      width: 80%;
+      width: 79%;
+      margin-left: 1%;
 }
 h1{
       color: rgba(0, 0, 255, 0.574);
-      width: 50%;
-      clear: both;
-      margin: 40px 40px 40px 40px
+      width: 94%;
+      margin: 3% 3% 40px 3%
 }
 body{
       background: url(./Imagenes/fondo.jpeg) no-repeat center center fixed;
@@ -55,4 +50,8 @@ body{
 .menu-lateral a:hover{
       background-color: rgb(60, 0, 60);
       color:rgb(189, 161, 60);
+}
+.pikachu{
+      max-width: 70px;
+      float: right;
 }
