@@ -1,0 +1,14 @@
+/*
+    Cristian Artero Molina
+    Un spinner Why not
+*/
+.img{
+    width: 60%;
+    padding: auto auto;
+    margin: auto auto;
+    transition: all 50s ease;
+    
+}
+.img:hover{
+    transform: rotate(3600000deg);
+}

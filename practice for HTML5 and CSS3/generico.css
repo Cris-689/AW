@@ -6,14 +6,15 @@
       box-sizing: border-box;
 }
 p{
+      color: azure;
       background-color: rgba(255, 235, 205, 0.786);
-      opacity: 70%;
+      opacity: 90%;
       font-size: 25px;
       width: 79%;
       margin-left: 1%;
 }
 h1{
-      color: rgba(0, 0, 255, 0.574);
+      color: rgba(255, 0, 0, 0.574);
       width: 94%;
       margin: 3% 3% 40px 3%
 }
@@ -42,7 +43,8 @@ body{
 }
 .menu-lateral a{
       background-color: rgba(239, 246, 248, 0.564);
-      color: blue;
+      color: rgb(0, 0, 255);
+      font-size: larger;
       text-decoration: none;
       padding: 20px;
       display: block;
@@ -51,7 +53,12 @@ body{
       background-color: rgb(60, 0, 60);
       color:rgb(189, 161, 60);
 }
-.pikachu{
-      max-width: 70px;
+.imagen-titulo{
+      max-width: 75px;
       float: right;
+}
+.titulo-1{ 
+      border: dashed 4px;
+      width: fit-content;
+      border-color:goldenrod;
 }

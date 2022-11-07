@@ -7,19 +7,21 @@
     margin: 0px;
 }
 .menuv{
-    float: right;
-    width: 33%;
+    width: 20%;
+    margin-left: 12%;
 }
 .menuv a{
     background-color: grey;
     color: azure;
     text-decoration: none;
     padding: 20px;
-    display: block  ;
+    display: block;
 }
-.menuv a:hover{
-    background-color: azure;
-    color:grey;
+.menuh{
+    margin: 50px auto 25px auto;
+    overflow: auto;
+    padding: 10px;
+    width: 80%;
 }
 .menuh a{
     background-color: grey;
@@ -30,9 +32,7 @@
     text-align: center;
     padding: 20px;  
 }
-.menuh a:hover{
+.menuh a:hover, .menuv a:hover{
     background-color: azure;
     color: grey
-}.menuv a{
-    background-color: ;
 }

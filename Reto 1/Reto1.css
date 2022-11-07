@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(170, 153, 1);
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 1%;
+    padding: 60px 40px;
+}
+.titulos{
+    color: rgb(10, 10, 191);
+    font-size: 40px;
+}
+hr{
+    border-color: white;
+}
+p{
+    color: rgb(10, 10, 191);
+    font-size: 23px;
+}
+.negrita{
+    font-weight: 1000;
+    color: red;
+}
+.cursiva{
+    font-weight: 550;
+    font-style: italic;
+    color: red;
+}
+.subrayado{
+    font-weight: 500;
+    text-decoration: underline;
+    color: rgb(65, 250, 98)
+}
+.amarillo{
+    color:yellow
+}
+.superindices{
+    vertical-align: top;
+    font-size:x-small;
+}
+.subindice{
+    vertical-align: sub;
+    font-size: x-small;
+}
+.principal{
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+}
+.principal img{
+    width: 20%;
+    float: left;
+    margin-left: 20px;
+}
+.principal > pre{
+    color: white;
+    float: left;
+}

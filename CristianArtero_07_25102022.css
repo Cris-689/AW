@@ -1,0 +1,44 @@
+/* 
+    Cristian Artero Molina
+    25 de Octubre de 2022
+*/
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+h1{
+    text-align: center;
+}
+section{
+    width: 70%;
+    margin: auto;
+    border: dashed;
+    padding: 15px;
+}
+ol ol{
+    list-style-type: lower-roman;
+}
+.ListasDesordenadas{
+    background-color: blueviolet;
+}
+.ListasOrdenadas{
+    background-color: darkblue;
+}
+.ListasDefinicion{
+    background-color: darkgreen;
+}
+img{
+    width: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+ul li{
+    list-style-type:none;
+    padding: 0px 0px 0px 0px;
+}
+.sublista{
+    list-style-type: georgian;
+}
