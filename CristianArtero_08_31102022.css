@@ -1,0 +1,47 @@
+    /* 
+    Cristian Artero Molina
+    Galeria de Imagenes
+*/
+body{
+    background-color: #2193b0;
+    background: -webkit-linear-gradient(to right, #fa8686, #b02121);
+    background: linear-gradient(to right, #fa8686, #b02121);
+    
+}
+header{
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 1% 1%;
+    text-align: center;
+}
+.grid{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1%;
+}
+.grid img{
+    width: 100%;
+    border: 3px solid white;
+    margin: auto;
+    transition: all 3s ease;
+}
+.grid img:hover{
+    transform:scale(1.1) rotate(180deg) ;
+}
+*{
+    box-sizing: border-box;
+}
+footer > p{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-shadow: -5px 5px 10px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size:x-large;
+}

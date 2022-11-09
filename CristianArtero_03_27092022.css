@@ -11,12 +11,26 @@ body{
     border-inline-end: cadetblue;
     background-color: rgb(84, 205, 163);
 }
-h1{color: rgb(255, 204, 143);
+h1{
+    color: rgb(255, 204, 143);
+    text-align: center;
 }
-p{
+nav > p{
     color:rgb(30, 12, 80);
     background-color: rgba(0, 110, 120, 0.7);
     margin: 5%;
     padding: 20px;
     border-radius: 35px;
+}
+footer > p{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-shadow: -5px 5px 10px rgb(84, 11, 109);
+    color: rgb(234, 255, 0);
+    font-size: x-large;
 }

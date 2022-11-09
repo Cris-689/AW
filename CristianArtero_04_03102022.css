@@ -16,3 +16,15 @@ img{
     display: block;
     padding: 2px 3px 2px 3px;
 }
+footer > p{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-shadow: -5px 5px 10px rgb(84, 11, 109);
+    color: rgb(100, 0, 182);
+    font-size: x-large;
+}
