@@ -40,10 +40,10 @@ h1{
     font-size: 30px;
     color: rgb(111, 0, 255);
 }
-footer > p{
+footer > a{
     position: fixed;
     bottom: 0px;
-    width: 100%;
+    width: fit-content;
     display: flex;
     justify-content: space-between;
     align-items: center;

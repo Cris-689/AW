@@ -16,10 +16,10 @@ img{
     display: block;
     padding: 2px 3px 2px 3px;
 }
-footer > p{
+footer > a{
     position: fixed;
     bottom: 0px;
-    width: 100%;
+    width: fit-content;
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -22,10 +22,10 @@ nav > p{
     padding: 20px;
     border-radius: 35px;
 }
-footer > p{
+footer > a{
     position: fixed;
     bottom: 0px;
-    width: 100%;
+    width: fit-content;
     display: flex;
     justify-content: space-between;
     align-items: center;

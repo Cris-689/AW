@@ -9,14 +9,17 @@
 body{
     height: fit-content;
     background: linear-gradient(to bottom, #43c6ac, #f8ffae);
-    font-family: 'Caveat', cursive;
 }
 header,footer{
     background: radial-gradient( #f8ffae,#43c6ac);
     padding: 20px;
     text-shadow: -5px 5px 5px rgb(41, 83, 69);
 }
+header{
+    font-family: 'Rubik Bubbles', cursive;
+}
 footer{
+    font-family: 'Caveat', cursive;
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -25,7 +28,8 @@ footer{
     align-items: center;
 }
 main{
-    width: 70%;
+    font-family: 'Lobster', cursive; /*La fuente no se ve en el resultado final pero hay esta*/
+    width: 100%;
     margin: auto;
 }
 main > video{
