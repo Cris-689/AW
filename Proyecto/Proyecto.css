@@ -6,3 +6,57 @@
     box-sizing: border-box;
     margin: 0px;
 }
+body{
+    background-color: darkslategrey;
+}
+.titulo{
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    padding: 0px 0.5%;
+    background: #108a72;
+}
+.logoL{
+    justify-self: start;
+    width: 50%;
+}
+.logoR{
+    justify-self: end;
+    width: 50%;
+}
+.textoTitulo{
+    justify-self: center;
+    vertical-align: middle;
+}
+.menu{
+    width: fit-content;
+    float: right;
+    height: 100%;
+    background:#108a72;
+    padding: 0.5% 0.5%;
+}
+.menu a{
+    text-decoration: none;
+    text-align: right;
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+    display: block;
+}
+.menu a:hover{
+    background: #f8ffae;
+}
+@media (max-width:700px){
+    .menu a{
+        font-size: x-large;
+    }
+}
+@media (max-width:550px){
+    .menu a{
+        font-size: large;
+    }
+}
+/*
+    llevo 4 horas pa esta mierda :(
+*/

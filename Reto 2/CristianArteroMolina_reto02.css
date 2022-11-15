@@ -1,0 +1,81 @@
+/*
+    Cristian Artero Molina
+    14/11/2022
+*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    background-color:rgb(184, 186, 202) ;
+}
+header , footer{
+    border: solid 4px white;
+    background-color: rgb(53, 18, 151);
+    color: white;
+    text-align: center;
+    font-family: "LT funk";
+    text-shadow: 5px 5px 3px black;
+    padding: 1% 1%;
+}
+footer{
+    display: flex;
+    padding: 1% 1%;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    justify-content: space-between;
+}
+footer img{
+    width: 50px;
+    border-radius: 30%;
+}
+.contenidoSuperior , .contenidoInferior{
+    margin: 3% 15%;
+    padding: 1% 1% 2%;
+    background-color: white;
+}
+.contenidoInferior{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.grande{
+    font-size: x-large;
+}
+.rojo{
+    color: rgb(185, 0, 0);
+}
+.ROJO{
+    font-style: italic;
+    font-size: x-large;
+    color: rgb(185, 0, 0)
+}
+.lista{
+    list-style:upper-latin;
+    width: 50%;
+}
+.sublista{
+    list-style:upper-roman;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    width: 47%;
+    gap: 6%;
+    height: fit-content;
+}
+.grid img{
+    width: 100%;
+    box-shadow: -2px -2px 3px rgb(29, 0, 108);
+    border-radius: 10%;
+    transition: all 1s ease;
+}
+.grid img:hover{
+    transform:scale(1.05) rotate(5deg);
+}
+@font-face {
+    font-family: "LT funk";
+    src: url(./Fuentes/LT\ Funk.otf);
+}
