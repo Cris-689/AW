@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    height: 1600px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#VideoFondo{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+}
+footer, header{
+    position: fixed;
+    width: 100%;
+    padding: 1%;
+    background-color: blueviolet;
+    color: aqua;
+    border: 1px black solid;
+    text-align: center;
+    height: 10%;
+    opacity: 0.7;
+}
+footer{
+    bottom: 0px;
+}
+header{
+    top: 0px;
+}

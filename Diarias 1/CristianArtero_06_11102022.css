@@ -1,0 +1,50 @@
+/*
+    Cristian Artero
+    11 de octubre de 2022
+*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.menuv{
+    width: 20%;
+    margin-left: 12%;
+}
+.menuv a{
+    background-color: grey;
+    color: azure;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+.menuh{
+    margin: 50px auto 25px auto;
+    overflow: auto;
+    padding: 10px;
+    width: 80%;
+}
+.menuh a{
+    background-color: grey;
+    color: azure;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;  
+}
+.menuh a:hover, .menuv a:hover{
+    background-color: azure;
+    color: grey
+}
+footer > a{
+    position: fixed;
+    bottom: 0px;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-shadow: -5px 5px 10px rgb(84, 11, 109);
+    color: rgb(100, 0, 182);
+    font-size: x-large;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="./CristianArtero_12_22112022.css">
+    <script>
+        function Mostrar() {
+            var x = document.getElementById("password");
+            if (x.type == "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="formPadre">
+        <form action="contact.php" method="post" class="formulario">
+            <div class="personal">
+                <input type="text" placeholder="tu nombre" name="nombre" id="nombre">
+                <input type="email" name="email" id="email" placeholder="Correo electronico">
+            <div class="labeles">   
+                <div class="telefono">
+                    <label for="telefono">Introduce tu numero Telefonico</label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="+34 ''Tu telefono''">
+                </div>
+                <div class="edad">
+                    <label for="number">Introduce tu edad</label>
+                    <input type="number" name="number" id="number" placeholder="Edad">
+                </div>
+            </div> 
+            </div>
+            <div class="contrasena">
+                <input type="password" name="password" id="password" placeholder="contraseña">
+                <input type="checkbox" name="checkbox" id="checkbox" onclick="Mostrar()">
+                <select name="pais" id="pais">
+                    <option value="Spain">España</option>
+                    <option value="England">Inglaterra</option>
+                    <option value="EEUU">Estados Unidos</option>
+                </select>
+            </div>
+            <div class="comentario">
+                <textarea placeholder="Tu mensaje" name="mensaje" id="mensaje" cols="30" rows="2"></textarea>
+            </div>
+            <div class="relleno">
+                <div>
+                    <input type="radio" name="radio" id="radio">
+                    <input type="button" value="button">
+                    <input type="file" name="file" id="file">
+                    <input type="date" name="date" id="date">
+                    <input type="color" name="color" id="color">
+                    <input type="range" name="range" id="range">
+                    <input type="submit" value="submit">
+                </div>
+            </div>
+    </form>
+    </div>    
+
+</body>
+</html>

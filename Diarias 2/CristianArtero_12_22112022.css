@@ -1,0 +1,74 @@
+/*
+    Cristian Artero Molina
+    Martes 22 de Noviembre de 2022
+*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: papayawhip;
+}
+.formPadre{
+    display: flex;
+    justify-content: center;
+}
+.formulario{
+    width: 80%;
+    margin: 10% 10%;
+}
+input , textarea{
+    margin: 1px;
+    border:solid 2px rgb(126, 0, 211);
+    background-color: paleturquoise;
+}
+.personal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.personal input{
+    width: 70%;
+    text-align: center;
+}
+.contrasena{
+    display: flex;
+    justify-content: center;
+}
+.contrasena select{
+    width: 18%;
+}
+.contrasena #password{
+    width: 50%;
+}
+.labeles{
+    width: 70%;
+}
+.edad{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content:space-between;
+}
+.edad input{
+    width: 40%;
+}
+.telefono{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content:space-between;
+}
+.telefono input{
+    width: 40%;
+    margin-left: 3%;
+}
+.comentario{
+    width: 100%;
+    text-align: center;
+}
+.relleno div{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+}

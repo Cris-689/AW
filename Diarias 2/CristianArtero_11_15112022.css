@@ -1,0 +1,26 @@
+/*
+    Cristian Artero Molina
+    15 de Noviembre de 2022
+*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 10% 10%;
+    color: azure;
+}
+img{
+    width: 80%;
+    border-radius: 7%;
+}
+table{
+    width: fit-content;
+    text-align: center;
+    border-collapse: collapse;
+    background: linear-gradient(to bottom, rgb(85, 0, 128) , rgba(183, 0, 192, 0.748));
+}
+.columna{
+    border:solid 5px black;
+}
+

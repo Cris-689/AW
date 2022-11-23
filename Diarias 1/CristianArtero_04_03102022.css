@@ -1,0 +1,30 @@
+/* 
+    04 de Octubre de 2022
+    Autor:Cristian Artero
+*/
+nav{
+    width: 25%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+img{
+    width: 25%;
+    border: 8px double rgb(162, 0, 0);
+    margin: auto;
+    display: block;
+    padding: 2px 3px 2px 3px;
+}
+footer > a{
+    position: fixed;
+    bottom: 0px;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-shadow: -5px 5px 10px rgb(84, 11, 109);
+    color: rgb(100, 0, 182);
+    font-size: x-large;
+}
