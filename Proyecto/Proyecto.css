@@ -57,7 +57,7 @@ body{
     width: 100%;
     text-decoration: none;
 }
-a{
+.submenu a{
     width: 25%;
     height: 10%;
     float: left;
@@ -75,11 +75,17 @@ a{
     grid-template-columns: auto auto auto auto;
     gap: 3%;
     font-size: 1.5em;
-    text-align: center;
+
 }
 .InicioPrincipal img{
     width: 9em;
     height: 8em;
+    text-align: center;
+}
+.Compra a{
+    background-color: red;
+    color: white;
+    text-decoration: none;
 }
 @media (max-width:1000px){
     .submenu{
