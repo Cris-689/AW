@@ -23,6 +23,14 @@ nav a{
     background-color: beige;
     padding: 15px;
 }
+img{
+    width: 250px;
+    margin:auto;
+    display: none;
+    border: 2px solid black;
+    animation-name: animacion;
+    animation-duration:2s;
+}
 section{
     padding: 50px 0px;
 }
@@ -54,4 +62,20 @@ h1{
         background-color: red;
         font-size: 0.8em;
     }
+}
+@keyframes animacion{
+    from {opacity:0;} 
+    to  {opacity:1;}
+}
+#footer > a{
+    position: fixed;
+    bottom: 0px;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-shadow: -5px 5px 10px rgb(0, 0, 0);
+    color: red;
+    font-size:x-large;
 }

@@ -42,3 +42,15 @@ p::first-letter{
 p::first-line{
     color: palegreen;
 }
+#footer > a{
+    position: fixed;
+    bottom: 0px;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-shadow: -5px 5px 10px rgb(0, 0, 0);
+    color: red;
+    font-size:x-large;
+}

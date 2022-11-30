@@ -6,14 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One page Scroll</title>
     <link rel="stylesheet" href="./CristianArtero_15_28112022.css">
+    <script>
+        function Mostrar(){
+            var elemento = document.getElementById("imagen")
+            elemento.style.display = "block";
+        }
+        function Ocultar(){
+            var elemento = document.getElementById("imagen");
+            elemento.style.display = "none";
+        }
+    </script>
 </head>
 <body>
     <nav id="Menu">
         <a href="#Inicio">Inicio</a>
         <a href="#Servicios">Servicios</a>
-        <a href="#Galeria">Galeria</a>
+        <a href="#Galeria" onmouseover="Mostrar()" onmouseout="Ocultar()">Galeria</a>
         <a href="#Contacto">Contacto</a>
     </nav>
+    <img id="imagen" src="./Imagenes/Qatqr.jpg" alt="">
     <section id="Inicio">
         <h1>Inicio</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio ipsum saepe veritatis suscipit asperiores nostrum sit quis iure tenetur eaque obcaecati, nemo dolores aperiam, ipsa ratione, itaque consequuntur totam ut?</p>
@@ -34,5 +45,8 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ducimus velit modi rem assumenda culpa. Quae, veniam tempora aspernatur quibusdam iure illo tenetur mollitia ipsum asperiores repudiandae assumenda nostrum quis.</p>
         <a href="#Menu">Volver</a>
     </section> 
+    <footer id="footer">
+        <a href="./CristianArteroParte2.html"><p>Cristian Artero Molina</p></a>
+    </footer>
 </body>
 </html>
