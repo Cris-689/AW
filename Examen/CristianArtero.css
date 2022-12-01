@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(./Multimedia/textura.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    margin: 1em 0em 2em;
+    font-family: 'pompiere', cursive;
+}
+.TextoSuperior{
+    color: white;
+}
+.titulo{
+    width: 80%;
+    background-color: black;
+    margin: 0px 10%;
+}
+.enlaces{
+    width: 100%;
+}
+.enlaces a{
+    color: white;
+    font-family: 'Calibry';
+    text-decoration: none;
+    width: 25%;
+    float: left;
+}
+.titulo img{
+    width: 100%;
+    padding: 3% 3%;
+}
+.lista{
+    margin: 5% auto;
+    padding: 3% 0px 6%;
+    width: 60%;
+    border-radius: 3em;
+    background-color: white;
+    border: 2px solid black;
+}
+.lista ul{
+    list-style: decimal;
+    padding: 0px 20%;
+}
+.lista h1{
+    font-size: 3em;
+    font-family: 'calibri';
+}
+.videosyt{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    gap: 7em 3em;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    padding-bottom: 10%;
+}
+.videosyt iframe{
+    border-radius: 2em;
+    border: white solid;
+    width: 100%;
+    height: 150%;
+}
+iframe{
+    transition: all 0.4s linear;
+}
+iframe:hover{
+    transform: scale(0.9);
+}
+.shadow{
+    text-shadow: 2px -2px 5px rgba(0, 0, 0, 0.666);
+}
+footer{
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(147, 161, 158);
+    height: 10%;
+    color: white;
+}

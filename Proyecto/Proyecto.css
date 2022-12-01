@@ -128,3 +128,8 @@ body{
         text-align: center;
     }
 }
+@media (max-width:450px){
+    .textoTitulo{
+        font-size: 2em;
+    }
+}
