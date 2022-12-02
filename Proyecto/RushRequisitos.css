@@ -36,8 +36,7 @@ footer{
 }
 .listas{
     position: fixed;
-    bottom: 20%;
     width: 50%;
-    margin: 0% 25%;
+    margin: 30% 35%;
     color: aliceblue;
 }
