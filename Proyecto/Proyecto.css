@@ -8,7 +8,8 @@
     font-family: 'Caveat', cursive;
 }
 body{
-    margin: 3em 3em;
+    width: 80%;
+    margin: 10% auto;
     background-image: url(./Imagenes/fondo.gif);
     background-position: center center;
     background-repeat: no-repeat;
@@ -30,12 +31,14 @@ body{
     font-size:3em;
     color: rgb(255, 255, 255);
     text-align: center;
+    text-shadow: 3px -3px 5px#002c23;
 }
 .menu{
     width: 100%;
     background-color: #108a72;
     float: left;
     overflow: hidden;
+    
 }
 .menu:hover .submenu{
     display: block;
@@ -45,6 +48,7 @@ body{
     border: none;
     width: 100%;
     font-size: 2em;
+    transition: all 0.25s linear;
 }
 .inicio:hover{
     background-color: #108a72;
@@ -54,8 +58,9 @@ body{
     display: none;
     float: left;
     background-color: #108a72;
-    width: 100%;
+    width: 80%;
     text-decoration: none;
+    
 }
 .submenu a{
     width: 25%;
@@ -65,6 +70,7 @@ body{
     color: white;
     text-align: center;
     font-size: 2em;
+    
 }
 .menu a:hover{
     background-color: #f8ffae;
@@ -81,22 +87,32 @@ body{
     width: 100%;
     height: 100%;
     background-color: #f8ffaeb4;
+    transition: all 0.25s linear;
+}
+.InicioPrincipal img:hover{
+    transform:scale(0.9);
+    
+}
+.Tabla{
+    width: 100%;
+    color:white;
+    font-size: 1.4em;
+    background: linear-gradient(to top,black, rgb(99, 0, 0), black);
 }
 @media (max-width:1000px){
     .submenu{
         display: none;
         position: absolute;
         background-color: #108a72;
-        width: 100%;
         z-index: 1;
     }
     .InicioPrincipal{
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
     }
     .titulo img{
         padding: 1% 1.5% 1% 1.5%;
-        width: 25%;
-        height: 25%;
+        width: 20%;
+        height: 20%;
     }
     .menu a{
         float: none;
@@ -118,8 +134,8 @@ body{
     }
     .titulo img{
         padding: 5% 1.5% 5% 1.5%;
-        width: 25%;
-        height: 25%;
+        width: 15%;
+        height: 15%;
     }
     .menu a{
         float: none;
@@ -128,8 +144,13 @@ body{
         text-align: center;
     }
 }
-@media (max-width:450px){
+@media (max-width:520px){
     .textoTitulo{
         font-size: 2em;
+    }
+}
+@media (max-width:380px){
+    .textoTitulo{
+        font-size: 1.5em;
     }
 }
